@@ -1,36 +1,37 @@
 # Commands
 
 Bu yerda Back-end uchun kerakli buyruqlarni topishingiz mumkin.
-
-# Django==4.0
+<br/><br/>
+## Django==4.0
 Djangoni o'rnatish va ishga tushirish
 
 ### Vertuval muhidni yaratish va Djangoni o'rnatish
 
-- pipenv
+<hr/>
+
+### pipenv
 Agar siz [pipenv](https://pipenv.pypa.io/en/latest/)dan foydalanmoqchi bo'lsangiz quyidagi buyruqni ishlatasiz.
 
-1.
 ```cmd
 pip install pipenv
 ```
-1. Agar xatolik chiqsa
+- Agar xatolik chiqsa
 ```cmd
 py -m pip install pipenv
 ```
-2.
+- Keyin esa
 ```cmd
 pipenv shell
 ```
-2. Agar xatolik chiqsa
+- Agar xatolik chiqsa
 ```cmd
 py -m pipenv shell
 ```
-3.
+- Keyin esa
 ```cmd
 pipenv install django==4.0
 ```
-3. Agar xatolik chiqsa
+- Agar xatolik chiqsa
 ```cmd
 py -m pipenv install django==4.0
 ```
@@ -38,18 +39,19 @@ py -m pipenv install django==4.0
 ```cmd
 exit
 ```
-- pip
+<hr/>
+
+### pip
 Agar siz [venv](https://docs.python.org/3/library/venv.html)dan foydalanmoqchi bo'lsangiz quyidagi buyruqni ishlatasiz.
 
-1.
 ```cmd
 python3 -m venv project_name
 ```
-2.
+- Keyin esa
 ```cmd
 course project_name/bin/activate
 ```
-3.
+- Keyin esa
 ```cmd
 pip install django==4.0
 ```
@@ -57,6 +59,7 @@ pip install django==4.0
 ```cmd
 deactivate
 ```
+<hr/>
 
 ### Djangoni ishga tushirish
 
@@ -87,9 +90,11 @@ Quit the server with CTRL-BREAK.
 
 ```
 4. Shuni copy qiling va o'z browseringizda oching
+- Sizda quyidagi ranimdek natija chiqishi kerak 
+<img width="820" alt="1-26" src="https://github.com/Javohir-dev/commands/assets/97449821/973e4ebb-5730-4186-81db-eed3ad086973">
 
-
-
+<br/><br/><br/><br/><br/><br/><br/>
+# Celery
 ## Run CELERY
 
 ```cmd
